@@ -6,7 +6,6 @@ export function middleware(request: NextRequest) {
         return NextResponse.redirect(new URL('/comments', request.url));
         // return NextResponse.rewrite(new URL('/comments', request.url));
     }
-    console.log("dsd");
 }
 
 // export const config={
